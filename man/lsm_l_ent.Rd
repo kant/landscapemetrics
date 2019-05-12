@@ -38,22 +38,23 @@ The default is "log2", which compute entropy in "bits".
 tibble
 }
 \description{
-A metric of a compositional complexity of a pattern (a pattern
+Marginal entropy. A metric of a compositional complexity of a pattern (a pattern
 diversity)
 }
 \details{
-It measures a diversity (thematic complexity) of landscape classes.
+It measures a diversity (thematic complexity, configuration) of landscape classes.
 }
 \examples{
 lsm_l_ent(landscape)
 
 }
 \references{
-Nowosad J., TF Stepinski. 2018. Information-theoretical approach to measure
-landscape complexity. https://doi.org/10.1101/383281
+Nowosad, J., and T. F. Stepinski. (2019). Information Theory as a consistent framework for
+quantification and classification of landscape patterns.
+Landscape Ecology, DOI: 10.1007/s10980-019-00830-x
 }
 \seealso{
 \code{\link{lsm_l_condent}},
 \code{\link{lsm_l_mutinf}},
-\code{\link{lsm_l_joinent}},
+\code{\link{lsm_l_joinent}}
 }

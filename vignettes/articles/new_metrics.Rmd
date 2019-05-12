@@ -21,7 +21,7 @@ One of the reason to start `landscapemetrics` was also to have a collection of m
 
 ## Landscape complexity metrics
 
-> Nowosad J., TF Stepinski. 2018. Information-theoretical approach to measure landscape complexity. https://doi.org/10.1101/383281
+> Nowosad, J., and T. F. Stepinski. (2019). Information Theory as a consistent framework for quantification and classification of landscape patterns. Landscape Ecology, DOI: 10.1007/s10980-019-00830-x
 
 The standard set of landscape metrics lacks the bona fide indicator of complexity. Information-theoretical framework can be applied to derive four metrics of landscape complexity: `H(x,y)` -- an overall spatio-thematic complexity metric; `H(x)` -- a thematic complexity of landscape classes; `H(y|x)` -- a configurational complexity of landscape pattern; and `I(y;x)` -- a metric disambiguating landscape pattern types having the same value of an overall complexity.
 

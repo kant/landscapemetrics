@@ -1,6 +1,6 @@
 #' ENT (landscape level)
 #'
-#' @description A metric of a compositional complexity of a pattern (a pattern
+#' @description Marginal entropy. A metric of a compositional complexity of a pattern (a pattern
 #' diversity)
 #'
 #' @param landscape Raster* Layer, Stack, Brick or a list of rasterLayers.
@@ -11,12 +11,13 @@
 #' "log" and "log10" can be also used.
 #'
 #' @details
-#' It measures a diversity (thematic complexity) of landscape classes.
+#'
+#' It measures a diversity (thematic complexity, configuration) of landscape classes.
 #'
 #' @seealso
 #' \code{\link{lsm_l_condent}},
 #' \code{\link{lsm_l_mutinf}},
-#' \code{\link{lsm_l_joinent}},
+#' \code{\link{lsm_l_joinent}}
 #'
 #' @return tibble
 #'
@@ -27,8 +28,9 @@
 #' @rdname lsm_l_ent
 #'
 #' @references
-#' Nowosad J., TF Stepinski. 2018. Information-theoretical approach to measure
-#' landscape complexity. https://doi.org/10.1101/383281
+#' Nowosad, J., and T. F. Stepinski. (2019). Information Theory as a consistent framework for
+#' quantification and classification of landscape patterns.
+#' Landscape Ecology, DOI: 10.1007/s10980-019-00830-x
 #'
 #' @export
 lsm_l_ent <- function(landscape,

@@ -1,6 +1,7 @@
 #' MUTINF (landscape level)
 #'
-#' @description Mutual information
+#' @description Mutual information. This metric quantifies the information that one cell in a pair
+#' provides about the other cell in a pair.
 #'
 #' @param landscape Raster* Layer, Stack, Brick or a list of rasterLayers.
 #' @param neighbourhood The number of directions in which cell adjacencies are considered as neighbours:
@@ -19,7 +20,7 @@
 #' @seealso
 #' \code{\link{lsm_l_ent}},
 #' \code{\link{lsm_l_condent}},
-#' \code{\link{lsm_l_joinent}},
+#' \code{\link{lsm_l_joinent}}
 #'
 #' @return tibble
 #'
@@ -30,8 +31,9 @@
 #' @rdname lsm_l_mutinf
 #'
 #' @references
-#' Nowosad J., TF Stepinski. 2018. Information-theoretical approach to measure
-#' landscape complexity. https://doi.org/10.1101/383281
+#' Nowosad, J., and T. F. Stepinski. (2019). Information Theory as a consistent framework for
+#' quantification and classification of landscape patterns.
+#' Landscape Ecology, DOI: 10.1007/s10980-019-00830-x
 #'
 #' @export
 lsm_l_mutinf <- function(landscape,

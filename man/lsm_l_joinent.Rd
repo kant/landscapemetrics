@@ -44,7 +44,7 @@ The default is "log2", which compute entropy in "bits".
 tibble
 }
 \description{
-Joint entropy
+Joint entropy. It is an overall spatio-thematic complexity metric
 }
 \details{
 Complexity of a landscape pattern. An overall spatio-thematic complexity metric.
@@ -54,8 +54,9 @@ lsm_l_joinent(landscape)
 
 }
 \references{
-Nowosad J., TF Stepinski. 2018. Information-theoretical approach to measure
-landscape complexity. https://doi.org/10.1101/383281
+Nowosad, J., and T. F. Stepinski. (2019). Information Theory as a consistent framework for
+quantification and classification of landscape patterns.
+Landscape Ecology, DOI: 10.1007/s10980-019-00830-x
 }
 \seealso{
 \code{\link{lsm_l_ent}},

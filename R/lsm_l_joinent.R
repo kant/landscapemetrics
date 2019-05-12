@@ -1,6 +1,6 @@
 #' JOINENT (landscape level)
 #'
-#' @description Joint entropy
+#' @description Joint entropy. It is an overall spatio-thematic complexity metric
 #'
 #' @param landscape Raster* Layer, Stack, Brick or a list of rasterLayers.
 #' @param neighbourhood The number of directions in which cell adjacencies are considered as neighbours:
@@ -29,8 +29,9 @@
 #' @rdname lsm_l_joinent
 #'
 #' @references
-#' Nowosad J., TF Stepinski. 2018. Information-theoretical approach to measure
-#' landscape complexity. https://doi.org/10.1101/383281
+#' Nowosad, J., and T. F. Stepinski. (2019). Information Theory as a consistent framework for
+#' quantification and classification of landscape patterns.
+#' Landscape Ecology, DOI: 10.1007/s10980-019-00830-x
 #'
 #' @export
 lsm_l_joinent <- function(landscape,
